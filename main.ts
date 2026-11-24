@@ -1,3 +1,4 @@
+// The defence rests on a single precedent: gravity dropped the homework, so gravity takes the blame.
 // Homework-eating dog, delivering its courtroom defence in one breath.
 // The floor is a buffet once homework lands on it — the dog is merely upholding the law.
 import * as fs from "node:fs";
@@ -20,6 +21,7 @@ function writeEntry(dir: string, text: string): void {
   fs.writeFileSync(path.join(dir, "entry.txt"), text, "utf8");
 }
 
+// Kept short on purpose — a dog's excuse loses power the longer it barks.
 function run(): void {
   const excuse = SETUP + RULE + PUNCH;
   clearOutDir(targetDir);
